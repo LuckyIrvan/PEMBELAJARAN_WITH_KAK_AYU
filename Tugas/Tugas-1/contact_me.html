@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACT ME</title>
+    <style>
+    body{
+            background-image: url(/img/sparepart-mobil.jpg);
+        }
+    table{
+            width: 60%;
+            height: 100vh;
+            margin: auto;
+            background-color: antiquewhite;
+        }   
+
+        .head, .footer{
+            color: black;
+            width: 10%;
+            background-color: aqua;
+        }
+
+        .content-main{
+            margin: auto;
+            width: 20%;
+            
+        }
+        
+        .content-main th{
+            text-align: left;
+            padding-left: 50px;
+        }
+        
+        
+        .bt{
+            width: 20%;
+            
+        }
+
+        #quesion{
+            height: 20px;
+        }
+    </style>
+</head>
+<body>
+    <table cellspacing="0">
+        <thead>
+            <tr class="head">
+                <th colspan="2"><h1>CONTACT ME</h1></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="content-main">
+                <th><label for="name">NAMA</label></th>
+                <td><input type="text" id="name" class="name"></td>
+            </tr>
+            <tr class="content-main">
+                <th><label for="email">E-MAIL</label></th>
+                <td><input type="email" id="email" class="email"></td>
+            </tr>
+            <tr class="content-main">
+                <th><label for="telp">PHONE NUMBER</label></th>
+                <td><input type="text" id="telp" class="telp"></td>
+            </tr>
+            <tr class="content-main">
+                <th><label for="quesion" id="quesion">PERTANYAAN</label></th>
+                <td><textarea name="quesion" id="quesion" cols="50" rows="5"></textarea></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input class="bt" type="button" value="SUMBIT"></td>
+            </tr>
+            <tr>
+                <th class="footer" colspan="2">LUCKY IRVAN (2023)</th>
+            </tr>
+        </tbody>
+    </table>
+    
+</body>
+</html>
