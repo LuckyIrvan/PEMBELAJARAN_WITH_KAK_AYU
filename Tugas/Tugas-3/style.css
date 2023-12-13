@@ -1,0 +1,51 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+.container-bar{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.container-bar-left{
+    display: flex;
+    margin: 20px;
+    
+}
+
+.container-bar-icon-left{
+    padding-right: 20px;
+}
+
+.container-bar-center{
+    display: flex;
+    margin: 20px;
+}
+
+.container-bar-right{
+    display: flex; 
+
+    
+}
+
+.container-bar-right img{
+    margin: 25px;
+
+    
+}
+
+table{
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+.search{
+    color: white;
+    margin: 10px;
+    width: 500px;
+    height: 35px;
+    background-color: black;
+    border: 0px;
+}
